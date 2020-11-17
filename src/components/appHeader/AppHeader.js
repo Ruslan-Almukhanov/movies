@@ -35,10 +35,10 @@ const AppHeader = ({ search, setSearch, selectHandler, selectYearHandler }) => {
   return (
     <div className={styles.overlay}>
       <Container>
-        <Paper component="form" className={classes.root}>
+        <Paper className={classes.root}>
           <InputBase
             className={classes.input}
-            placeholder="Search movies"
+            placeholder="Найдите свой фильм..."
             value={search}
             onChange={e => setSearch(e.target.value)}
           />

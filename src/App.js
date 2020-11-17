@@ -39,12 +39,14 @@ function App() {
 
   const selectYearHandler = e => {
     const target = e.target;
-    const year = target.getAttribute("value");    
+    const year = target.getAttribute("value");
     year && getData(request.getAllFilms(`s=movie&y=${year}`));
+    setSearch("");
   };
 
   const selectHandler = e => {
     getData(request.getByCategory(`s=${e.target.value}`));
+    setSearch("");
   };
 
   useEffect(() => {
@@ -52,7 +54,6 @@ function App() {
       ? getData(request.getFilmBySearch(`&s=${search}`))
       : getData(request.getAllFilms("s=movie"));
   }, [search]);
-  console.log(films);
 
   return (
     <>
