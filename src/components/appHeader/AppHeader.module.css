@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.overlay {
+  padding: 40px 0;
+  background: #ccc;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.year {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.year h6 {
+  margin: 0 40px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #7b7474;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -ms-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+}
+
+.year h6:hover {
+  border-bottom: 1px dotted transparent;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+  -ms-transition: 0.2s all ease;
+  -o-transition: 0.2s all ease;
+}

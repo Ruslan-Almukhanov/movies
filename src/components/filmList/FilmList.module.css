@@ -1,0 +1,25 @@
+.filmList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+
+.filmList li {
+  -webkit-box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 13px 25px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  width: 200px;
+  height: 410px;
+}
+
+.year {
+  font-size: 12px;
+  display: block;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.imgBlock {
+  height: 300px;
+}
