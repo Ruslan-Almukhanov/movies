@@ -1,6 +1,6 @@
 export default class filmService {
   constructor() {
-    this._apiBase = "http://www.omdbapi.com/?apikey=4124c14f&";
+    this._apiBase = "https://www.omdbapi.com/?apikey=4124c14f&";
   }
 
   getResource = async url => {
