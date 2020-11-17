@@ -49,9 +49,9 @@ const AppHeader = ({ search, setSearch, selectHandler, selectYearHandler }) => {
             </InputLabel>
             <Select
               native
-              value={search}
+              defaultValue="Фильтр по категориям"
               onChange={e => selectHandler(e)}
-              label="Фильтр по категории"
+              label="Фильтр по категориям"
             >
               <option aria-label="None" value="" />
               <option value={"movie"}>Фильмы</option>
